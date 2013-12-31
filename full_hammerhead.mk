@@ -23,6 +23,9 @@ $(call inherit-product, vendor/cna/configs/apns.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
+# Release name
+PRODUCT_RELEASE_NAME := Nexus5
+
 PRODUCT_NAME := full_hammerhead
 PRODUCT_DEVICE := hammerhead
 PRODUCT_BRAND := google
